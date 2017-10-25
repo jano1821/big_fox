@@ -1,0 +1,71 @@
+<?php
+$clave = rand(10000, 99999).'usuario'.rand(10000, 99999);
+echo 'clave con numero aleatorio='.$clave;
+?>
+<br>
+<br>
+<?php
+$clave_base64 = base64_encode($clave);
+echo 'key en base 64='.$clave_base64;
+?>
+<br>
+<br>
+<?php
+$str = '3288Caridad$$';
+echo 'contrasenia del usuario='.$str;
+?>
+<br>
+<?php
+$cod = base64_encode($str);
+echo 'contrasenia del usuario en base 64='.$cod;
+?>
+<br>
+<br>
+<?php
+echo password_hash($cod,PASSWORD_BCRYPT, array("cost" => 12, "salt" => $clave_base64));
+?>
+<br>
+<br>
+<?php
+$clave = base64_encode('cesarnunez');
+$pasword = password_hash('llave',PASSWORD_BCRYPT, array("cost" => 12, "salt" => $clave.'123456'));
+echo $pasword;
+echo '<br>';
+if (password_verify('rasmuslerdorf', $pasword)) {
+    echo '¡La contraseña es válida!';
+} else {
+    echo 'La contraseña no es válida.';
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml">
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <title>Documento sin título</title>
+                <style type="text/css"> 
+                    html, body, div, iframe { 
+                        margin:0; 
+                        padding:0; 
+                        height:100%; 
+                    } 
+                    iframe { 
+                        display:block; 
+                        width:100%; 
+                        border:none; } 
+                </style>
+            </head>
+            <body>
+                <iframe src="http://localhost:81/big_fox/"></iframe>
+            </body>
+        </html>

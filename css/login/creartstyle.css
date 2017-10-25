@@ -1,0 +1,15 @@
+@charset "UTF-8";
+ * {
+  padding: 0;
+  margin: 0;
+}
+/* Backgrounds */
+
+#background-head {
+  background: #000000;
+}
+/*Cambio de tamaño a los container*/
+
+.container-fluid {
+  max-height: 200px;
+}

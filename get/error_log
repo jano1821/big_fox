@@ -1,0 +1,17 @@
+[03-Aug-2017 20:33:22 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 93
+[03-Aug-2017 20:40:36 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 93
+[03-Aug-2017 20:44:04 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 93
+[03-Aug-2017 20:44:49 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 93
+[03-Aug-2017 20:46:20 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 93
+[03-Aug-2017 20:47:05 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 93
+[03-Aug-2017 20:47:59 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 93
+[03-Aug-2017 20:49:23 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 94
+[03-Aug-2017 20:56:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 94
+[03-Aug-2017 20:57:54 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 94
+[03-Aug-2017 20:58:29 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 94
+[03-Aug-2017 20:59:01 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 94
+[03-Aug-2017 21:05:20 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/GeneralesEntity.php on line 94
+[03-Aug-2017 21:06:35 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/cchcorre/public_html/big_fox/entity/principal/MenuEntity.php on line 25
+[19-Oct-2017 21:26:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'jano'@'localhost' (using password: YES) in /home/cchcorre/public_html/big_fox/inc/DB_mysql.php on line 29
+[19-Oct-2017 21:26:57 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, integer given in /home/cchcorre/public_html/big_fox/entity/principal/LoginEntity.php on line 21
+[19-Oct-2017 21:26:57 UTC] PHP Fatal error:  Call to a member function getRespuesta() on null in /home/cchcorre/public_html/big_fox/controller/principal/LoginController.php on line 60
